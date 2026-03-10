@@ -5,12 +5,11 @@
 ## Installation
 
 ```bash
-brew tap batonogov/tap
-brew install --cask pine
+brew install --cask batonogov/tap/pine
 ```
 
 ## Updating
 
 ```bash
-brew upgrade --cask pine
+brew upgrade --cask batonogov/tap/pine
 ```
