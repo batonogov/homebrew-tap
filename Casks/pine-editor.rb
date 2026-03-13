@@ -4,10 +4,10 @@ cask "pine-editor" do
 
   url "https://github.com/batonogov/pine/releases/download/v#{version}/Pine.dmg"
   name "Pine"
-  desc "Minimal native macOS code editor"
+  desc "A native Mac code editor"
   homepage "https://github.com/batonogov/pine"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: ">= :tahoe"
 
   app "Pine.app"
 
