@@ -7,6 +7,8 @@ cask "pine-editor" do
   desc "A native Mac code editor"
   homepage "https://github.com/batonogov/pine"
 
+  auto_updates true
+
   depends_on macos: ">= :tahoe"
 
   app "Pine.app"
