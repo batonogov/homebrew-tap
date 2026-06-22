@@ -9,7 +9,8 @@ cask "pine-editor" do
 
   auto_updates true
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
+  depends_on maximum_macos: :golden_gate
 
   app "Pine.app"
 
